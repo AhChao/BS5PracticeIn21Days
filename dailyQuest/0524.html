@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+        .ltg{
+            border: solid green 2px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Example</h3>
+    <h4>請寫出一個在所有設備上都是一行四欄的區塊。</h4>
+    <div class="container">
+        <div class="row">
+            <div class="col ltg">Content</div>
+            <div class="col ltg">Content</div>
+            <div class="col ltg">Content</div>
+        </div>
+    </div>
+    <h3>Quest1</h3>
+    <h4>請寫出一個在所有設備上都是 左邊佔四 右邊佔八 的區塊。</h4>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 ltg">Content</div>
+            <div class="col-8 ltg">Content</div>
+        </div>
+    </div>
+    <h3>Quest2</h3>
+    <h4>請做出一個在 PC 版中佔據兩欄 平板中佔三欄 手機版中佔四欄 的區塊。</h4>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 col-xs-4 col-md-3 col-lg-2 ltg">Content</div>
+            <div class="col-4 col-xs-4 col-md-3 col-lg-2 ltg">Content</div>
+            <div class="col-4 col-xs-4 col-md-3 col-lg-2 ltg">Content</div>
+            <div class="col-4 col-xs-4 col-md-3 col-lg-2 ltg">Content</div>
+            <div class="col-4 col-xs-4 col-md-3 col-lg-2 ltg">Content</div>
+            <div class="col-4 col-xs-4 col-md-3 col-lg-2 ltg">Content</div>
+        </div>
+    </div>
+    <h3>Quest3</h3>
+    <h4>請利用第一題的答案 在右邊佔八的區塊中添加一個左邊佔據十欄右邊佔據兩欄的巢狀網格。</h4>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 ltg">Content</div>
+            <div class="col-8 ltg">
+                <div class="row">
+                    <div class="col-12">Content</div>
+                </div>
+                <div class="row">
+                    <div class="col-10 ltg">Content</div>
+                    <div class="col-2 ltg">Content</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -82,8 +82,8 @@ $theme-colors: (
   "primary":    #FFDF65,
   "secondary":  $secondary,
   "success":    $success,
-  "info":       #FF785E,
-  "warning":    $warning,
+  "info":       $info,
+  "warning":    #FF785E,
   "danger":     $danger,
   "light":      $light,
   "dark":       $dark,
@@ -91,7 +91,8 @@ $theme-colors: (
   "cgray" : #858377,
   "hdgray" : #636057,
   "linegray" : #E8E8DB,
-  "lightbg" : #F8F9FA
+  "lightbg" : #F8F9FA,
+  "lightselect":#999999
 ) !default;
 // scss-docs-end theme-colors-map
 

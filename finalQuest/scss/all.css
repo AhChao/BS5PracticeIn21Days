@@ -12213,12 +12213,20 @@ fieldset:disabled .btn {
   width: 500px;
 }
 
+.font-32 {
+  font-size: 32px;
+}
+
 .font-24 {
   font-size: 24px;
 }
 
 .font-16 {
   font-size: 16px;
+}
+
+.font-14 {
+  font-size: 14px;
 }
 
 .product-img {
